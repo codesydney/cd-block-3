@@ -1,5 +1,5 @@
 ### CD-BLOCK-3 ###
-## SQLite CRUD API ##
+## CRUD API (Flask | SQLite) ##
 
 Description: This block showcases CRUD (Create Read Update Delete) of rows in SQLite database
 
