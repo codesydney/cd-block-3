@@ -1,7 +1,7 @@
 ### CD-BLOCK-3 ###
 ## CRUD API (Flask | SQLite) ##
 
-Description: This block showcases CRUD (Create Read Update Delete) of rows in SQLite database
+Description: This block showcases CRUD (Create Read Update Delete) of rows in SQLite database.
 
 GitHub Link: https://github.com/codesydney/cd-block-3
 
