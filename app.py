@@ -43,7 +43,6 @@ def update(customer_id = None, name=None, address=None, dob=None, phone=None, em
         
         cur = con.cursor()
 
-        print ('update&&&&&&&&&&&&&&&&&&&&&& ', customer_id, name, address, dob, phone, email)
         cur.execute("update customer set name=?, address=?, dob=?, phone=?, email=? where customer_id=?",(name, address, dob, phone, email, customer_id))
         con.commit()
 
