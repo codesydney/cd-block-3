@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/create/<customer_id>/<name>/<address>/<dob>/<phone>/<email>',methods=['POST','GET'])
 def create(customer_id = None, name=None, address=None, dob=None, phone=None, email=None):
     if request.method=='POST':                
-        con = sql.connect("C:\engramar\projects\cd-block-3\customer_db")
+        con = sql.connect("./customer_db")
         con.row_factory = sql.Row
         
         cur = con.cursor()
